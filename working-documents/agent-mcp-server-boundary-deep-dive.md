@@ -94,9 +94,9 @@ Any capture of request or result payloads under Context and Outcome is subject t
 
 The E0→E4 ladder in the model states what each rung requires; it does not state who establishes the rung. If a consumer reads a grade off a record and repeats it, the grade is a producer claim about the producer's own evidence and carries no independent weight. One normative line therefore belongs next to the ladder:
 
-> A record may only be reported at a grade whose required properties the reporting consumer has itself re-derived from the record and from the external parties those properties name.
+> A consumer MUST NOT report a record at a grade whose required properties it has not itself re-derived from the record and from the external parties those properties name.
 
-Raised in review by [@astrogilda](https://github.com/astrogilda) (2026-09-13), and proposed for placement with the ladder in [the model (PR #25)](https://github.com/aaif/wg-observability-and-traceability/pull/25). The companion fixture pair — two records identical in every producer-authored field, where the externally issued material verifies in one and fails in the other — is a natural fit for the kit in [issue #42](https://github.com/aaif/wg-observability-and-traceability/issues/42) and is offered there separately (Section 8).
+Raised in review by [@astrogilda](https://github.com/astrogilda) (2026-09-13), and proposed for placement with the ladder in [the model (PR #25)](https://github.com/aaif/wg-observability-and-traceability/pull/25). The companion fixture pair — two records identical in every producer-authored field, where the externally issued material verifies in one and fails in the other — is a natural fit for the kit in [issue #42](https://github.com/aaif/wg-observability-and-traceability/issues/42), where it is filed in that thread.
 ## 4. Coverage summary
 
 Covered at protocol level: identity fields that are session-scoped (client and server info, negotiated version, session ID), request/response correlation, session lifecycle states, outcome presence and error flag, and the authorization mechanism.
@@ -160,9 +160,5 @@ Ordered by coordination effort, per the charter's coordinate-first principle:
 
 1. WG leads review this revision on the call or async, alongside the unresolved questions in Section 7.
 2. Once the cross-cutting properties are placed, fold the filled row into [the model (PR #25)](https://github.com/aaif/wg-observability-and-traceability/pull/25) rather than keeping a parallel copy.
-3. Contribute the §3.3 fixture pair to [issue #42](https://github.com/aaif/wg-observability-and-traceability/issues/42)'s kit: two records identical in every producer-authored field, where the externally issued material verifies in one and fails in the other, with the expected re-derivation result for each.
+3. Reconcile §3.3 with [issue #42](https://github.com/aaif/wg-observability-and-traceability/issues/42)'s kit once its fixture pair lands: two records identical in every producer-authored field, where the externally issued material verifies in one and fails in the other.
 4. Carry the coordinate-first asks in Section 6 to OTel GenAI SIG and AGNTCY Observe.
-
----
-
-Empire Labs Pty Ltd (Security Division) | contact@empirelabs.com.au
