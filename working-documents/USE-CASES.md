@@ -340,6 +340,7 @@ When adding use cases, consider:
 | E1. Agent side effects | | |
 | E2. Scope enforcement | | |
 | E3. Audit trail | | |
+| E4. Tamper-evident evidence | | |
 | F1. Multi-agent tracing | | |
 | F2. Agent communication | | |
 | G1. Real-time health | | |
@@ -352,7 +353,7 @@ When adding use cases, consider:
 
 ---
 
-### Empire Labs Pty Ltd (Security Division) priorities
+### Empire Labs priorities
 
 | Use Case | Priority (Empire Labs) | Notes |
 |----------|------------------------|-------|
@@ -370,7 +371,7 @@ When adding use cases, consider:
 | E1. Agent side effects | **High** | Core of our evidence work |
 | E2. Scope enforcement | **High** | Declared vs observed enforcement |
 | E3. Audit trail | **High** | Primary product focus |
-| E4. Tamper-evident evidence (proposed) | **High** | See proposed use case above |
+| E4. Tamper-evident evidence | **High** | |
 | F1. Multi-agent tracing | **High** | Delegation chains across agents |
 | F2. Agent communication | Medium | |
 | G1. Real-time health | Medium | |
@@ -378,5 +379,6 @@ When adding use cases, consider:
 | H1. Failure discovery | Low | |
 | H2. Training data | Low | |
 | H3. Benchmarking | Medium | |
+| I1. Cross-surface identity resolution | | |
 
 **Summary for WG:** Empire Labs' priorities cluster in Safety and Compliance (E1-E4) and Multi-Agent Systems (F1), reflecting our focus on evidence-grade observability for regulated and enterprise deployments.
