@@ -96,7 +96,7 @@ The E0→E4 ladder in the model states what each rung requires; it does not stat
 
 > A consumer MUST NOT report a record at a grade whose required properties it has not itself re-derived from the record and from the external parties those properties name.
 
-Raised in review by [@astrogilda](https://github.com/astrogilda) (2026-09-13), and proposed for placement with the ladder in [the model (PR #25)](https://github.com/aaif/wg-observability-and-traceability/pull/25). The companion fixture pair — two records identical in every producer-authored field, where the externally issued material verifies in one and fails in the other — is a natural fit for the kit in [issue #42](https://github.com/aaif/wg-observability-and-traceability/issues/42), where it is filed in that thread.
+Raised in review by [@astrogilda](https://github.com/astrogilda) (2026-09-13), and proposed for placement with the ladder in [the model (PR #25)](https://github.com/aaif/wg-observability-and-traceability/pull/25). The companion fixture pair — two records identical in every producer-authored field, where the externally issued material verifies in one and fails in the other — is a natural fit for the kit in [issue #42](https://github.com/aaif/wg-observability-and-traceability/issues/42), which the reviewer named above has taken on; the pair itself is theirs to file there.
 ## 4. Coverage summary
 
 Covered at protocol level: identity fields that are session-scoped (client and server info, negotiated version, session ID), request/response correlation, session lifecycle states, outcome presence and error flag, and the authorization mechanism.
