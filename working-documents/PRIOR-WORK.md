@@ -632,7 +632,7 @@ Several academic papers have surveyed or contributed to the agent observability 
 |---|---|
 | `mcp-evidence-validator` (Empire Labs) | Declared-vs-observed checks for MCP servers with a tamper-evident SHA-256 ledger; roadmap includes A2A agent-card validation (v0.3) extending the same model to the agent-to-agent boundary |
 | `mcp-governance-risks-framework` (Empire Labs) | Structured risk framework for MCP deployments - governance, trust-boundary, and supply-chain risk surfaces |
-| `witnessos` (Empire Labs) | Public promotional repo for the evidence-grade compliance product; E0-E4 evidence grades + external anchoring (TSA timestamp, Merkle checkpoint) |
+| `witnessos` (Empire Labs) | Public promotional repo for the evidence-grade compliance product; evidence grades E0 to E4, which are grades rather than use case identifiers, plus external anchoring (TSA timestamp, Merkle checkpoint) |
 | OWASP Agent Observability Standard (AOS) | Instrumentation specs for A2A and MCP observability - complementary, protocol-level |
 
 These are reference points, not a pitch: declared-vs-observed is a measurement method that composes with every layer of the stack without displacing any of them.
